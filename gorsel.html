@@ -1,0 +1,57 @@
+<html>
+    <KAFA>
+        <başlık>Örnekler</başlık>
+        <bağlantı ilgili=="stil sayfası"href=="stiller.css">
+        <stil>
+            #galeri {
+
+                görüntüleme: esnek;
+                flex-wrap:sarmak;
+                boşluk:20px;
+
+            }
+            #galeri img {
+               genişlik:%45;
+            }
+
+            #galeri-açılır-pencere {
+                görüntüleme: yok;
+                öğeleri hizala: merkez;
+                pozisyon: sabit;
+                üst: %5;
+                sol: %5;
+                genişlik: %90;
+                boy: %90;
+                arka plan: #000;
+
+            }
+            #galeri-açılır-pencere-kapat:hover {
+                arka plan: kırmızı;
+            }
+        </stil>
+    </KAFA>
+    <vücut>
+        <h1>Örnekler</h1>
+    </vücut> 
+    <bölüm>
+        <A href="dizin.html">Ana Sayfa</A>
+        <A href="hakkımızda.html">Bize Ulaşın</A>
+        <A href="gorsel.html">Örnekler</A>
+        <A href="iletisim">İletişim</A>
+</bölüm>
+<h1>Ankara Bilim Üniversitesi</h1>
+
+<bölüm İD="galeri">
+    <resim kaynak="image/fakülteler.jpg"alt="">
+    <resim kaynak="image/hazırlık-okulu.jpg"alt="">
+    <resim kaynak="image/lisansustu.jpg"alt="">   
+    <resim kaynak="image/meslekyuksekokulu.jpg"alt=""> 
+</bölüm>
+<bölüm İD="galeri-açılır-pencere">
+    <resim kaynak="image/fakülteler.jpg"alt="">
+
+    <düğme İD="galeri-açılır-kapanış">X</düğme>
+    </bölüm>
+    <seneryo>
+    sabit resimler=belge.sorguSeçiciTümü("#galeri resmi");
+    
